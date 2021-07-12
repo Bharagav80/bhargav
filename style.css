@@ -94,6 +94,8 @@ h1 {
   padding-top: 2%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-left: 12%;
 }
 li div {
   font-size: 1.1rem;
@@ -104,4 +106,15 @@ li div {
   list-style: none;
   padding-top: 2%;
   flex-grow: 1;
+}
+.foot {
+  height: 350px;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+}
+.foot p {
+  padding-top: 10%;
+  font-size: 1.1rem;
 }
