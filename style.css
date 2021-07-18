@@ -1,120 +1,154 @@
 .body {
   box-sizing: border-box;
   width: 1140px;
-  font-family: "Comic Neue", cursive;
+  font-family: "Roboto", sans-serif;
 }
-
-/*header*/
-.heading a {
+/*Header*/
+a {
+  color: white;
   text-decoration: none;
-  color: #fff;
-  transition: 0.5;
+  transition: 0.8s;
 }
-.heading a:hover {
-  color: grey;
+a:hover {
+  color: rgb(62, 191, 241);
+  transform: scale(1.2);
 }
 nav {
   text-align: center;
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 5%;
   display: flex;
   justify-content: space-around;
   font-size: 1.2rem;
-  order: 2;
+
   padding-top: 10px;
   margin-bottom: 8%;
 }
 .heading {
-  background-image: url("pexels-johannes-plenio-2850287.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.2)),
+    url("pexels-pixabay-219692.jpg");
+
   background-size: cover;
-  height: 600px;
+
   border-radius: 10px;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  color: white;
 }
-
-.one h1 {
+.skyline {
+  margin-top: 10%;
+}
+.skyline h1 {
   text-align: center;
-  color: #fff;
-}
-h1 {
-  font-size: 2.5rem;
-}
-.one p {
-  font-size: 1.5rem;
-  text-align: center;
-  color: #fff;
-}
-
-/*FEATURES*/
-.Features {
-  margin-top: 0%;
-  height: 450px;
-  font-size: 1.1rem;
-  color: gray;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-}
-.Features h3 {
-  color: rgb(87, 86, 86);
-}
-.Features ul {
-  padding-top: 2%;
-  display: flex;
-  justify-content: center;
-}
-.Features li {
-  list-style: none;
-  margin-right: 5%;
-}
-#click {
-  text-decoration: underline;
-  color: gray;
-  transition: 0.5;
-}
-#click:hover {
-  color: red;
-}
-
-/*MISSION*/
-.Mission {
-  height: 600px;
-  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
-}
-.Mission h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 35px;
-  font-style: italic;
-  padding-top: 2%;
-}
-.Mission h3 {
-  color: #fff;
-  text-align: center;
-  font-style: italic;
-}
-.offers {
-  padding-top: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 12%;
-}
-li div {
-  font-size: 1.1rem;
-  color: #fff;
+  font-size: 2rem;
   font-weight: bolder;
 }
-.offers li {
-  list-style: none;
-  padding-top: 2%;
-  flex-grow: 1;
+.skyline p {
+  text-align: center;
+  font-size: 1.7rem;
 }
-.foot {
-  height: 350px;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  margin-top: 0px;
+.but {
+  display: flex;
+  justify-content: center;
+  margin-top: 13%;
+}
+button {
   color: white;
+  border: 2px solid rgb(207, 226, 223);
+  background: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 0.8s;
+}
+button:hover {
+  background: rgb(37, 155, 143);
+}
+
+/*Main*/
+.mains {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mains1 h1 {
+  color: #052c3f;
+  font-size: 2.5rem;
+}
+.mains1 p {
+  font-size: 24px;
+  color: #4d8090;
+}
+.mains2 {
+  color: #504f4f;
+  font-size: 20px;
+  margin-top: 12px;
+}
+ol {
+  list-style-type: lower-roman;
+}
+/*SERVICES*/
+.services {
+  background-color: #f6f9fa;
+  height: 500px;
+}
+.services h1 {
+  padding-top: 2%;
+  font-size: 2rem;
   text-align: center;
 }
-.foot p {
-  padding-top: 10%;
-  font-size: 1.1rem;
+.s1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-top: 2%;
+  flex-direction: row;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.s2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-top: 2%;
+  flex-direction: row;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+i {
+  color: #4d8090;
+  transition: 0.8s;
+}
+i:hover {
+  background-color: #649aac;
+  color: white;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+  color: #052c3f;
+}
+.portfolio h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.port {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  width: 400px;
+  padding-left: 8%;
+  transition: 0.8s;
+}
+img:hover {
+  transform: scale(1.1);
 }
